@@ -212,5 +212,6 @@ public class ContentsController {
 	public String create() {
 		return "/contents/create";
 	}
+	
 
 }

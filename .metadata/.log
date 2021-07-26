@@ -10845,3 +10845,231 @@ Binding(CTRL+SHIFT+C,
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-26 14:40:40.585
 !MESSAGE executing callback sts4.classpath.uTGXSEQM SUCCESS [done]
+
+!ENTRY Activator 1 0 2021-07-26 14:54:24.868
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-26 14:54:25.109
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-26 15:02:47.634
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-26 15:02:47.851
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-26 15:07:09.346
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-26 15:07:09.890
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-26 16:04:53.230
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-26 16:04:53.852
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-26 16:05:20.024
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-26 16:05:20.615
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-07-26 16:06:12.766
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY Activator 1 0 2021-07-26 16:08:29.759
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-26 16:08:30.298
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-26 16:09:48.772
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-26 16:09:49.354
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-07-26 16:11:22.625
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY Activator 1 0 2021-07-26 16:22:20.294
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-26 16:22:20.527
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-26 16:22:21.247
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-26 16:22:31.848
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-26 16:28:05.656
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-26 16:28:05.938
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-26 16:46:32.600
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-26 16:46:33.133
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-26 16:48:00.197
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-26 16:48:00.801
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-26 16:57:26.859
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-26 16:57:27.411
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-26 16:58:44.335
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-26 16:58:44.921
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-26 16:59:02.543
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-26 16:59:03.078
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-26 17:03:26.366
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-26 17:03:26.948
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-26 17:05:22.095
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-26 17:05:22.677
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-26 17:07:45.409
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-26 17:07:45.950
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-26 17:09:36.473
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-26 17:09:37.083
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-26 17:13:06.388
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-26 17:13:12.792
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-26 17:21:08.848
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-26 17:21:09.455
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-26 17:22:47.225
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-26 17:22:47.763
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-07-26 17:26:21.087
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY Activator 1 0 2021-07-26 17:28:43.581
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-26 17:28:44.175
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-26 17:29:23.104
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-26 17:29:23.136
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-26 17:30:57.837
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-26 17:32:22.470
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-26 17:32:22.556
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-26 17:32:22.690
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-26 17:33:20.610
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-26 17:33:34.728
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-26 17:33:41.608
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-26 17:33:44.590
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-26 17:33:44.721
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-26 17:39:36.199
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-26 18:08:09.934
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-26 19:36:45.532
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-26 19:39:49.027
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-26 19:39:49.217
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-26 20:06:14.674
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-26 20:06:14.898
+!MESSAGE Has main method computation for project 'shopping'

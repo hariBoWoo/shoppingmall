@@ -5,6 +5,8 @@ C:\tstudy\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\672104
 \spring_bbs\src\main\java
 C:\tstudy\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2409360198.index
 \notice\src\main\java
+C:\tstudy\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4140173976.index
+\shopping\src\main\java
 C:\tstudy\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3459233058.index
 \shopping\src\main\java
 C:\tstudy\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2955893758.index
