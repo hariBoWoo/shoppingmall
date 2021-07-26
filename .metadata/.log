@@ -11232,3 +11232,581 @@ java.util.concurrent.TimeoutException
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-27 00:50:37.257
 !MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.uTGXSEQM => OK
+
+!ENTRY Activator 1 0 2021-07-27 00:53:01.777
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 00:53:08.495
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 01:03:50.156
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 01:03:52.842
+!MESSAGE Has main method computation for project 'shopping'
+!SESSION 2021-07-27 01:15:12.848 -----------------------------------------------
+eclipse.buildId=4.11.0.202106180608
+java.version=16.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -clean -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2021-07-27 01:15:42.956
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-07-27 01:15:42.956
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@52b32622,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7fb1820d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-07-27 01:15:48.473
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Admin'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-27 01:16:47.082
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-27 01:16:47.082
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@3d4a7c3f[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=713)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-27 01:16:47.091
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-27 01:16:47.283
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-27 01:16:51.212
+!MESSAGE Boot LS startup time from start to initialized: 4110ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-27 01:16:51.830
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.kzcirYgyisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-27 01:16:51.834
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-27 01:16:51.836
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-27 01:16:51.837
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-27 01:16:51.838
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-27 01:16:51.838
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.kzcirYgy => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-27 01:16:51.852
+!MESSAGE classpath=98 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-27 01:16:51.856
+!MESSAGE buffering callback sts4.classpath.kzcirYgy shopping false 97
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-27 01:16:51.857
+!MESSAGE executing callback sts4.classpath.kzcirYgy 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-27 01:16:52.277
+!MESSAGE executing callback sts4.classpath.kzcirYgy SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-27 01:17:43.363
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.kzcirYgy
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-27 01:17:43.364
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.kzcirYgy
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-27 01:17:43.364
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-27 01:17:43.365
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.kzcirYgy => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-27 01:19:47.920
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-27 01:19:47.921
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@3d4a7c3f[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=713)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-27 01:19:47.921
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-27 01:19:49.494
+!MESSAGE Boot LS startup time from start to initialized: 1571ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-27 01:19:49.558
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.sunlpMihisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-27 01:19:49.559
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-27 01:19:49.560
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-27 01:19:49.560
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-27 01:19:49.561
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-27 01:19:49.561
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.sunlpMih => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-27 01:19:49.566
+!MESSAGE classpath=98 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-27 01:19:49.569
+!MESSAGE buffering callback sts4.classpath.sunlpMih shopping false 97
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-27 01:19:49.569
+!MESSAGE executing callback sts4.classpath.sunlpMih 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-27 01:19:49.838
+!MESSAGE executing callback sts4.classpath.sunlpMih SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-27 01:20:07.844
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.sunlpMih
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-27 01:20:07.845
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.sunlpMih
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-27 01:20:07.846
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-27 01:20:07.846
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.sunlpMih => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-27 01:59:54.324
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-27 01:59:54.325
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@3d4a7c3f[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=713)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-27 01:59:54.325
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-27 01:59:55.895
+!MESSAGE Boot LS startup time from start to initialized: 1569ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-27 01:59:55.967
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.rQkEcAvDisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-27 01:59:55.967
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-27 01:59:55.968
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-27 01:59:55.968
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-27 01:59:55.969
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-27 01:59:55.969
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.rQkEcAvD => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-27 01:59:55.974
+!MESSAGE classpath=98 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-27 01:59:55.977
+!MESSAGE buffering callback sts4.classpath.rQkEcAvD shopping false 97
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-27 01:59:55.977
+!MESSAGE executing callback sts4.classpath.rQkEcAvD 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-27 01:59:56.247
+!MESSAGE executing callback sts4.classpath.rQkEcAvD SUCCESS [done]
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-07-27 02:05:17.529
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.ui 2 2 2021-07-27 02:16:29.295
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.eclipse.jface 2 0 2021-07-27 02:19:30.518
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-07-27 02:19:30.518
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.togglelinecommentcommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1b51997a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@68739681,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY Activator 1 0 2021-07-27 02:48:08.229
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 02:48:08.462
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 02:53:24.938
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 03:01:59.548
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 03:01:59.807
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 03:03:10.286
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 03:13:27.724
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 03:22:41.793
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 03:23:34.012
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 03:23:43.691
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 03:23:46.632
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 03:25:08.222
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 03:25:08.492
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 03:29:54.482
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 03:29:55.067
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 03:31:37.671
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 03:31:49.707
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 03:33:07.844
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 03:36:33.167
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 03:40:46.739
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 03:40:47.009
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 03:43:59.114
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 03:43:59.479
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 03:51:36.607
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 03:51:36.921
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 03:52:40.510
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 03:52:40.776
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 03:59:03.988
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 03:59:04.568
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 03:59:57.429
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-27 03:59:57.430
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-27 03:59:57.436
+!MESSAGE classpath=99 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-27 03:59:57.440
+!MESSAGE buffering callback sts4.classpath.rQkEcAvD shopping false 99
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-27 03:59:57.441
+!MESSAGE executing callback sts4.classpath.rQkEcAvD 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-27 03:59:57.469
+!MESSAGE executing callback sts4.classpath.rQkEcAvD SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-27 03:59:57.553
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-27 03:59:57.558
+!MESSAGE classpath=99 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-27 03:59:57.562
+!MESSAGE buffering callback sts4.classpath.rQkEcAvD shopping false 99
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-27 03:59:57.562
+!MESSAGE executing callback sts4.classpath.rQkEcAvD 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-27 03:59:57.588
+!MESSAGE executing callback sts4.classpath.rQkEcAvD SUCCESS [done]
+
+!ENTRY Activator 1 0 2021-07-27 03:59:58.158
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 03:59:59.240
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 04:19:09.729
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 04:19:10.004
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 04:34:35.507
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 04:34:36.052
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 04:36:46.660
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 04:36:47.245
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 04:37:57.043
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 04:37:57.634
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 04:47:50.192
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 05:05:31.658
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 05:05:34.978
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 05:05:39.788
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 05:05:46.583
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 05:08:06.976
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 05:08:07.243
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 05:08:31.130
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 05:08:31.411
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 05:08:43.366
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 05:08:44.225
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 05:08:51.988
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 05:08:52.870
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 05:09:18.670
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 05:09:18.955
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 05:09:47.575
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 05:09:48.728
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 05:10:01.676
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 05:10:01.991
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 05:10:30.520
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 05:11:11.138
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 05:11:40.321
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 05:11:41.388
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 05:23:25.079
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 05:23:30.936
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 05:23:31.067
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 05:23:31.408
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 05:23:31.518
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 05:23:31.679
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 05:23:31.903
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 05:23:35.311
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 05:23:35.789
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 05:23:36.257
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 05:23:36.447
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 05:23:36.697
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 05:23:37.023
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 05:24:18.400
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 05:24:18.511
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 05:24:20.205
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 05:24:25.460
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 05:24:25.579
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 05:24:26.927
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 05:24:27.084
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 05:24:27.281
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 05:24:27.527
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 05:24:36.770
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 05:24:37.762
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 05:24:42.950
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 05:24:43.943
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 05:24:44.485
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 05:24:44.707
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 05:25:21.624
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 05:25:21.909
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 05:27:35.056
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 05:27:36.421
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 05:28:55.346
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 05:28:56.471
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 05:32:29.335
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 05:32:35.164
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 05:32:35.476
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-27 05:32:50.072
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.rQkEcAvD
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-27 05:32:50.073
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.rQkEcAvD
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-27 05:32:50.073
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-27 05:32:50.073
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.rQkEcAvD => OK

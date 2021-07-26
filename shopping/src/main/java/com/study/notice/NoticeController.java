@@ -9,6 +9,7 @@ import javax.servlet.http.HttpServletRequest;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -25,10 +26,10 @@ public class NoticeController {
 	@GetMapping("/notice/create")
 	  public String create() {
 	 
-	    return "/notice/Pcreate";
+	    return "/notice/create";
 	  }
 	 
-	  @PostMapping("/notice/Pcreate")
+	  @PostMapping("/notice/create")
 	  public String create(NoticeDTO dto) {
 	 
 	    if (service.create(dto) == 1) {
@@ -82,6 +83,68 @@ public class NoticeController {
 	 
 	    // view페이지 리턴
 	    return "/notice/list";
+	  }
+	  
+	  
+	  
+	  
+	  
+	  @GetMapping("/notice/read")
+	  public String read(int noticeno, Model model) {
+	    
+	    service.upCnt(noticeno);
+	    
+	    NoticeDTO dto = service.read(noticeno);
+	    
+	    String content = dto.getContent().replaceAll("\r\n", "<br>");
+	    
+	    dto.setContent(content);
+	    
+	    model.addAttribute("dto",dto);
+	    
+	    return "/notice/read";
+	  }
+	  
+	  @GetMapping("/notice/update")
+	  public String update(int noticeno, Model model) {
+	    
+	    model.addAttribute("dto", service.read(noticeno));
+	 
+	    return "/notice/update";
+	  }
+	 
+	  @PostMapping("/notice/update")
+	  public String update(NoticeDTO dto) {
+	 
+	    int cnt = 0;
+	      
+	    cnt = service.update(dto);
+	    
+	    if (cnt==1) {
+	      return "redirect:./list";
+	    } else {
+	      return "./error";
+	    }
+	  }
+	  
+	  @GetMapping("/notice/delete")
+	  public String delete() {
+	 
+	    return "/notice/delete";
+	  }
+	  // -------------------------------------------------------- 인자값으로 passwd 필요 없음
+	  @PostMapping("/notice/delete")
+	  public String delete(HttpServletRequest request, int noticeno) {
+	   
+	    int cnt = 0;
+	   
+	    cnt = service.delete(noticeno);
+	 
+	    if (cnt==1) {
+	      return "redirect:./list";
+	    } else {
+	      return "./error";
+	    }
 	  }
 	 
 }

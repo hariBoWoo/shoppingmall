@@ -1,19 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="&lt;form class=&quot;form-horizontal&quot; "/>
+		<item key="selection" value="memberOrder"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="memberOrder"/>
+			<item value="orderList"/>
+			<item value="rdate"/>
+			<item value="contents"/>
+			<item value="contentsno"/>
+			<item value="delete"/>
+			<item value="nodate"/>
+			<item value="eno"/>
+			<item value="wname"/>
+			<item value="create"/>
+			<item value="admin"/>
 			<item value="&lt;form class=&quot;form-horizontal&quot; "/>
 			<item value="WHERE id=&apos;user1&apos;"/>
 			<item value="bbsno"/>
 			<item value="/"/>
-			<item value="C:/tstudy/workspace/mvc/src/main/webapp/WEB-INF/cofig/config.properties"/>
-			<item value="\"/>
 		</list>
 		<list key="replacehistory">
 			<item value="\"/>

@@ -43,7 +43,8 @@
       action="/contents/update"
       method="post"
       onsubmit="return checkIn(this)">
-  <input type="hidden" name="contentsno" value="${contentsno}">
+  <input type="hidden" name="contentsno" value="${contentsno=null}">
+  <input type="hidden" name="cnt" value="${cnt=0}">
   <div class="form-group">
     <label class="control-label col-sm-2" for="cateno">상품분류</label>
     <div class="col-sm-6">

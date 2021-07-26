@@ -100,7 +100,7 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
                 #{address1}, #{address2}, #{job}, sysdate, #{fname}, 'H')
         </insert>
         
-        <resultMap type="com.study.member.MemberDTO" id="memberOrder">
+     <resultMap type="com.study.member.MemberDTO" id="memberOrder">
         <result property="id" column="id"/>
         <result property="mname" column="mname"/>
          <result property="fname" column="fname"/>

@@ -1,12 +1,14 @@
 package com.study.notice;
 
+import com.fasterxml.jackson.annotation.JsonInclude;
+import com.fasterxml.jackson.annotation.JsonInclude.Include;
+
+@JsonInclude(Include.NON_NULL)
 public class NoticeDTO {
 
 	private int noticeno;
 	private String title;
 	private String content;
-	//private String wname;
-	//private String passwd;
 	private int cnt;
 	private String nodate;
 	
