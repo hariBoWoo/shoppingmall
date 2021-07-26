@@ -13,8 +13,9 @@
     <fullyQualifiedTypeName name="ioc.SamsungTV"/>
     <fullyQualifiedTypeName name="com.example.sample.bean.Member"/>
     <fullyQualifiedTypeName name="javax.servlet.http.HttpServletRequest"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.io.File"/>
     <fullyQualifiedTypeName name="org.slf4j.Logger"/>
     <fullyQualifiedTypeName name="org.slf4j.LoggerFactory"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="com.study.orders.OrdersDTO"/>
 </qualifiedTypeNameHistroy>

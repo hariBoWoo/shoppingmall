@@ -9,7 +9,7 @@
         <c:set var='str'>안녕하세요  ${sessionScope.id } 님!</c:set>
     </c:when>
     <c:otherwise>
-        <c:set var="str">> 기본 페이지 입니다.</c:set>
+        <c:set var="str">기본 페이지 입니다.</c:set>
     </c:otherwise>
 </c:choose>
 <!DOCTYPE html> 
