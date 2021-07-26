@@ -10,32 +10,24 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
   </insert> 
 <!-- 목록 -->
   <select id="list" parameterType="Map" resultType="com.study.notice.NoticeDTO">
-    SELECT noticeno, title, content, cnt, nodate, r
-    FROM (
-    SELECT noticeno, title, content, cnt, nodate, rownum r
-    FROM(
-    SELECT noticeno, title, content, cnt, nodate
+    SELECT noticeno, title,  cnt, nodate
     FROM notice
-        <where>
+    <where>
               <choose>
                   <when test="col=='title'">
-                      title like '%'||#{word}||'%'
+                      title like CONCAT('%',#{word},'%')
                   </when>
                   <when test="col=='content'">
-                      content like '%'||#{word}||'%'
+                      content like CONCAT('%',#{word},'%')
                   </when>
                   <when test="col=='title_content'">
-                     title like '%'||#{word}||'%'
+                     title like CONCAT('%',#{word},'%')
                      or
-                     content like '%'||#{word}||'%'
+                     content like CONCAT('%',#{word},'%')
                   </when>
               </choose>
            </where>
-    ORDER BY noticeno DESC 
-    )
-    <![CDATA[       
-                )where r >= #{sno} and r <= #{eno}
-        ]]>
+    ORDER BY noticeno DESC
   </select>
 <!--total-->
   <select id="total" resultType="int" parameterType="Map">

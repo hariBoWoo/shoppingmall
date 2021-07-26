@@ -10,11 +10,11 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
   </insert> 
 <!-- 목록 -->
   <select id="list" parameterType="Map" resultType="com.study.notice.NoticeDTO">
-    SELECT noticeno, title, content, cnt, nodate, r
+    SELECT noticeno, title,  cnt, nodate, r
     FROM (
-    SELECT noticeno, title, content, cnt, nodate, rownum r
+    SELECT noticeno, title,  cnt, nodate, rownum r
     FROM(
-    SELECT noticeno, title, content, cnt, nodate
+    SELECT noticeno, title,  cnt, nodate
     FROM notice
         <where>
               <choose>

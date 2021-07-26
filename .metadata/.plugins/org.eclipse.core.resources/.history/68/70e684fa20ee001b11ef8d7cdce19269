@@ -8,7 +8,11 @@
   <script type="text/JavaScript">
         
  function checkIn(f){
-       
+         if (f.wname.value == ""){
+              alert("글쓴이를 입력하세요");
+              f.wname.focus()
+              return false;
+         }
          if (f.title.value == ""){
               alert("제목를 입력하세요");
               f.title.focus();
@@ -33,9 +37,9 @@
       >
  
   <div class="form-group">
-    <label class="control-label col-sm-2" >작성자</label>
+    <label class="control-label col-sm-2" for="wname">작성자</label>
     <div class="col-sm-6">
-      <input type="text" class="form-control" value="관리자">
+      <input type="text" name="wname" id="wname" class="form-control" value="관리자">
     </div>
   </div>
   <div class="form-group">

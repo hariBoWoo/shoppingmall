@@ -83,5 +83,4 @@ public class NoticeController {
 	    // view페이지 리턴
 	    return "/notice/list";
 	  }
-	 
 }

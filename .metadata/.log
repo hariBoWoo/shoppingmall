@@ -11124,3 +11124,111 @@ java.lang.InterruptedException
 
 !ENTRY Activator 1 0 2021-07-26 21:56:14.909
 !MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-26 22:12:27.864
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-26 22:12:32.115
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-26 22:12:45.011
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-26 22:12:45.689
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-26 22:12:50.496
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-26 22:12:50.904
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-26 22:15:00.699
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-26 22:15:01.284
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-26 22:20:01.183
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-26 22:20:01.528
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-26 22:22:06.353
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-26 22:22:06.650
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-26 23:51:37.441
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 00:05:04.829
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-07-27 00:21:53.554
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY Activator 1 0 2021-07-27 00:28:46.726
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 00:28:47.280
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 00:29:41.935
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 00:29:42.510
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 00:34:18.595
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 00:34:18.867
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 00:36:55.130
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 00:36:55.320
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 00:37:21.697
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 00:37:22.028
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 00:37:23.795
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 00:37:24.380
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 00:47:48.287
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 00:47:48.887
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-27 00:50:37.256
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.uTGXSEQM
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-27 00:50:37.257
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.uTGXSEQM
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-27 00:50:37.257
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-27 00:50:37.257
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.uTGXSEQM => OK
