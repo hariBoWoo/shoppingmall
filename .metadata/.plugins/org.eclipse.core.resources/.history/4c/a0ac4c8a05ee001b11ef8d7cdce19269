@@ -6,7 +6,7 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 <!-- 등록 -->
   <insert id="create" parameterType="com.study.notice.NoticeDTO">
     INSERT INTO notice(title, content, cnt, nodate)
-    VALUES(#{title}, #{content}, 0, sysdate)
+    VALUES(#{title}, #{content}, 0, NOW())
   </insert> 
 <!-- 목록 -->
   <select id="list" parameterType="Map" resultType="com.study.notice.NoticeDTO">

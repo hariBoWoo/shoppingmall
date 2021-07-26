@@ -64,7 +64,6 @@ public class NoticeController {
 	    map.put("col", col);
 	    map.put("word", word);
 	    map.put("sno", sno);
-	    map.put("eno", eno);
 	    map.put("cnt", recordPerPage);
 	 
 	    int total = service.total(map);

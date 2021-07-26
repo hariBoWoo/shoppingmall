@@ -6,7 +6,7 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 <!-- 등록 -->
   <insert id="create" parameterType="com.study.notice.NoticeDTO">
     INSERT INTO notice(title, content, cnt, nodate)
-    VALUES(#{title}, #{content}, 0, sysdate)
+    VALUES(#{title}, #{content}, 0, NOW())
   </insert> 
 <!-- 목록 -->
   <select id="list" parameterType="Map" resultType="com.study.notice.NoticeDTO">
@@ -43,15 +43,15 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
     <where>
               <choose>
                   <when test="col=='title'">
-                      title like '%'||#{word}||'%'
+                      title like CONCAT('%',#{word},'%')
                   </when>
                   <when test="col=='content'">
-                      content like '%'||#{word}||'%'
+                      content like CONCAT('%',#{word},'%')
                   </when>
                   <when test="col=='title_content'">
-                     title like '%'||#{word}||'%'
+                     title like CONCAT('%',#{word},'%')
                      or
-                     content like '%'||#{word}||'%'
+                     content like CONCAT('%',#{word},'%')
                   </when>
               </choose>
            </where>
