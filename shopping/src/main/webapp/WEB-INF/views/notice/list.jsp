@@ -48,7 +48,9 @@
       name="word" value="${word}">
     </div>
     <button type="submit" class="btn btn-default" >검색</button>
-    <button type="button" class="btn btn-default" onclick="location.href='../notice/create'">등록</button>
+    <c:if test="${not empty sessionScope.id && sessionScope.grade == 'A'}">
+        <button type="button" class="btn btn-default" onclick="location.href='../notice/create'">등록</button>
+    </c:if>
   </form>
   
   <table class="table table-striped">

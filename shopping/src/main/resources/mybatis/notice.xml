@@ -7,8 +7,8 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 <mapper namespace="com.study.notice.NoticeMapper">
 <!-- 등록 -->
   <insert id="create" parameterType="com.study.notice.NoticeDTO" >
-    INSERT INTO notice(noticeno, title, content, cnt, nodate)
-    VALUES((select  (max(noticeno), 1)+1 from notice), #{title}, #{content}, 0, sysdate)
+    INSERT INTO notice(noticeno, title, content, nodate)
+    VALUES((SELECT NVL(MAX(noticeno), 0)+1 FROM notice), #{title}, #{content}, sysdate)
   </insert> 
 <!-- 목록 -->
   <select id="list" parameterType="Map" resultType="com.study.notice.NoticeDTO" resultMap="noticeRM">

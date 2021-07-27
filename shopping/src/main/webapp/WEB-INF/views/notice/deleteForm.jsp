@@ -23,7 +23,7 @@
 			<div class="form-group">
 				<div class="col-sm-offset-2 col-sm-5">
 					<button class="btn">삭제</button>
-					<button class="btn" onclick="location.href='/notice/list'">취소</button>
+					<button type="reset" class="btn" onclick="location.href='/notice/list'">취소</button>
 				</div>
 			</div>
 		</form>

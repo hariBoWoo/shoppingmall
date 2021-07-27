@@ -31,7 +31,6 @@
       method="post"
       onsubmit="return checkIn(this)"
       >
-   <input type="hidden" name="noticeno" value="${noticeno}">
   <div class="form-group">
     <label class="control-label col-sm-2" >작성자</label>
     <div class="col-sm-6">
@@ -56,7 +55,7 @@
    <div class="form-group">
    <div class="col-sm-offset-2 col-sm-5">
     <button class="btn">등록</button>
-    <button type="reset" class="btn">취소</button>
+    <button type="reset" class="btn" onclick="location.href='/notice/list'">취소</button>
    </div>
  </div>
 </form>

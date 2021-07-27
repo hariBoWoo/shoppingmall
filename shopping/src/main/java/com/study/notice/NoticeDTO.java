@@ -3,7 +3,7 @@ package com.study.notice;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonInclude.Include;
 
-@JsonInclude(Include.NON_NULL)
+//@JsonInclude(Include.NON_NULL)
 public class NoticeDTO {
 
 	private int noticeno;
@@ -47,14 +47,6 @@ public class NoticeDTO {
 	public String toString() {
 		return "NoticeDTO [noticeno=" + noticeno + ", title=" + title + ", content=" + content + ", cnt=" + cnt
 				+ ", nodate=" + nodate + "]";
-	}
-	public NoticeDTO(int noticeno, String title, String content, int cnt, String nodate) {
-		super();
-		this.noticeno = noticeno;
-		this.title = title;
-		this.content = content;
-		this.cnt = cnt;
-		this.nodate = nodate;
 	}
 
 	
