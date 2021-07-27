@@ -33,7 +33,6 @@
 						class="form-control">${dto.content}</textarea>
 				</div>
 			</div>
-
 			<div class="form-group">
 				<div class="col-sm-offset-2 col-sm-5">
 					<button class="btn">수정</button>

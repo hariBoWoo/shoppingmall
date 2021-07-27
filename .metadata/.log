@@ -12091,3 +12091,237 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY Activator 1 0 2021-07-27 13:05:14.851
 !MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 13:17:34.358
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 13:17:34.963
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 13:18:23.932
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 13:18:24.569
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 13:18:55.073
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 13:18:55.683
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 13:19:38.611
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 13:19:39.219
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 13:21:04.303
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 13:21:44.791
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 13:21:44.924
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 13:22:49.592
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 13:22:50.185
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 13:23:47.897
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY org.eclipse.jface 2 0 2021-07-27 13:27:16.368
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-07-27 13:27:16.368
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.togglelinecommentcommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@668d39ad,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@60944e60,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY Activator 1 0 2021-07-27 13:29:26.320
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 13:29:26.936
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 13:29:41.897
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 13:29:54.949
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 13:31:16.868
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 13:31:52.081
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 13:33:19.529
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 13:33:19.667
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 13:34:27.309
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 13:34:49.000
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 13:35:09.317
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 13:35:32.782
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 13:35:33.398
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 13:37:41.273
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 13:37:41.887
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 13:42:50.170
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 13:42:57.518
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 13:43:18.164
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 13:45:57.157
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 13:46:53.801
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 13:46:54.417
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 13:54:53.385
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 13:54:53.990
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 13:54:55.483
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 13:56:02.435
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 13:56:03.001
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 13:58:55.376
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 13:58:55.963
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 14:04:09.415
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 14:04:10.098
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 14:05:52.841
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 14:05:53.464
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 14:06:06.007
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 14:06:06.618
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 14:06:24.419
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 14:06:25.031
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 14:07:04.964
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 14:07:05.578
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 14:14:28.165
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 14:14:28.299
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 14:23:10.094
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 14:23:10.223
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 14:24:30.413
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 14:24:30.553
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 14:25:20.012
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 14:25:20.147
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 14:26:13.149
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 14:26:31.240
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 14:26:31.837
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 14:27:20.826
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 14:28:18.266
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 14:28:35.222
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY Activator 1 0 2021-07-27 14:28:35.831
+!MESSAGE Has main method computation for project 'shopping'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-27 14:31:54.885
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.yQVpDuod
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-27 14:31:54.885
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.yQVpDuod
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-27 14:31:54.885
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-27 14:31:54.886
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.yQVpDuod => OK

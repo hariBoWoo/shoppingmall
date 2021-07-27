@@ -24,7 +24,7 @@ public class NoticeController {
 	@Qualifier("com.study.notice.NoticeServiceImpl")
 	private NoticeService service;
 
-	@GetMapping("/notice/create")
+	@GetMapping("/admin/notice/create")
 	public String create() {
 
 		return "/notice/create";
@@ -102,7 +102,7 @@ public class NoticeController {
 		return "/notice/read";
 	}
 
-	@GetMapping("/notice/update")
+	@GetMapping("admin/notice/update")
 	public String update(int noticeno, Model model) {
 
 		model.addAttribute("dto", service.read(noticeno));
@@ -124,13 +124,12 @@ public class NoticeController {
 		}
 	}
 
-	@GetMapping("/notice/delete")
+	@GetMapping("admin/notice/delete")
 	public String delete() {
 
 		return "/notice/delete";
 	}
 
-	// -------------------------------------------------------- 인자값으로 passwd 필요 없음
 	@PostMapping("/notice/delete")
 	public String delete(HttpServletRequest request, int noticeno) {
 
