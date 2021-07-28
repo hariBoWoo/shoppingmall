@@ -73,6 +73,15 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
     WHERE noticeno=#{noticeno}
   </select>
  
+  <!-- 패스워드 검사 -->
+  <!-- 
+  <select id="passwd" resultType="int" parameterType="HashMap">
+    SELECT COUNT(*) AS cnt
+    FROM notice
+    WHERE noticeno=#{noticeno} AND passwd=#{passwd}
+  </select>  
+    -->
+ 
   <!-- 수정 -->
   <update id="update"  parameterType="com.study.notice.NoticeDTO">
     UPDATE notice
@@ -84,14 +93,6 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
   <delete id="delete" parameterType="int">
     DELETE FROM notice
     WHERE noticeno=#{noticeno}
-  </delete> 
-  
-   <resultMap type="com.study.notice.NoticeDTO" id="noticeRM">
-        <result property="noticeno" column="noticeno"/>
-        <result property="title" column="title"/>
-        <result property="content" column="content"/>
-        <result property="cnt" column="cnt"/>
-        <result property="nodate" column="nodate"/>
-   </resultMap>  
+  </delete>   
   
 </mapper>

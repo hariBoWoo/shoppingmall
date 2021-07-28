@@ -84,14 +84,6 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
   <delete id="delete" parameterType="int">
     DELETE FROM notice
     WHERE noticeno=#{noticeno}
-  </delete> 
-  
-   <resultMap type="com.study.notice.NoticeDTO" id="noticeRM">
-        <result property="noticeno" column="noticeno"/>
-        <result property="title" column="title"/>
-        <result property="content" column="content"/>
-        <result property="cnt" column="cnt"/>
-        <result property="nodate" column="nodate"/>
-   </resultMap>  
+  </delete>   
   
 </mapper>
